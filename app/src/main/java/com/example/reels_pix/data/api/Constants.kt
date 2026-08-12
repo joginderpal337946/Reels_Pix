@@ -16,4 +16,5 @@ object Constants {
     
     const val GET_AWARDS = "api/v1/awards"
     const val GET_LANGUAGES = "api/v1/languages"
+
 }

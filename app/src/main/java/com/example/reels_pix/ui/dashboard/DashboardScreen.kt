@@ -286,6 +286,7 @@ fun DashboardScreen() {
                     }
                 }
             }
+
         } else if (selectedBottomTab == 1) {
             Box(modifier = Modifier.padding(paddingValues)) {
                 FeedScreen(
