@@ -1,16 +1,24 @@
 # 🎬 Reels Pix
 Reels Pix is a modern, premium Android application that serves as a video streaming and discovery platform. It features an integrated wallet system, transaction tracking, and gamification through awards, offering a highly interactive user interface built entirely with Jetpack Compose.
 
+## 📱 App Demo 
+<p align="center">
+  <img src="assets/demo.gif" width="300"/>
+</p>
+
 ## 📱 Features & Core Screens
 
 ### 1. ✨ Onboarding & Authentication
 *   **Language Selection:** Tailored content based on the user's preferred language (`LanguageScreen`).
 *   **Sign In:** Seamless authentication flow to securely access the app (`SignInScreen`).
 
-### 2. 🏠 Main Dashboard & Feed
-*   **Dynamic Feed:** Scrollable video feed for discovering new content (`FeedScreen`).
-*   **Search Engine:** Quick and easy search functionality for finding specific videos or categories (`SearchScreen`, `CategoryDetailScreen`).
-*   **Video Player:** Immersive video player with playback controls and rich UI components (`VideoPlayerScreen`).
+### 2. 🎬 Reels Feed & Content Discovery
+* **Immersive Reels Feed:** Full-screen vertical video experience designed for seamless short-form content discovery (`FeedScreen`).
+* **Personalized Content:** Discover engaging reels based on categories, trending content, and curated video collections.
+* **Smooth Playback:** Auto-playing videos with optimized transitions and an uninterrupted scrolling experience.
+* **Explore & Search:** Discover videos, series, and categories through a dedicated search experience (`SearchScreen`, `CategoryDetailScreen`).
+* **Interactive Content:** Engage with reels through likes, comments, sharing, and contextual actions.
+* **Dedicated Video Player:** Rich, immersive playback experience with custom controls and supporting UI components (`VideoPlayerScreen`).
 
 ### 3. 💳 Wallet & Transactions
 *   **My Wallet:** Dashboard showing the current balance and financial metrics (`MyWalletScreen`).
