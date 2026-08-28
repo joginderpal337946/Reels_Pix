@@ -18,6 +18,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.reels_pix.R
 import com.example.reels_pix.data.model.MockData
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.foundation.Image
+import androidx.compose.ui.res.painterResource
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -36,6 +42,7 @@ fun DashboardScreen() {
     var playingVideoTitle by remember { mutableStateOf<String?>(null) }
     var showSearchScreen by remember { mutableStateOf(false) }
     var showTopUpSheet by remember { mutableStateOf(false) }
+    var showContinueWatchingPopup by remember { mutableStateOf(true) }
     
     val navigateToAwardsShop = {
         awardsTabIndex = 1
@@ -158,11 +165,11 @@ fun DashboardScreen() {
         containerColor = Color(0xFF121212)
     ) { paddingValues ->
         if (selectedBottomTab == 0) {
-            Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(paddingValues)
-            ) {
+            Box(modifier = Modifier.fillMaxSize().padding(paddingValues)) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                ) {
                 // Search Bar
                 Row(
                     modifier = Modifier
@@ -287,6 +294,17 @@ fun DashboardScreen() {
                 }
 
             }
+                
+                if (showContinueWatchingPopup) {
+                    ContinueWatchingPopup(
+                        modifier = Modifier
+                            .align(Alignment.BottomCenter)
+                            .padding(bottom = 16.dp),
+                        onDismiss = { showContinueWatchingPopup = false },
+                        onClick = { playingVideoTitle = "I became his trophy" }
+                    )
+                }
+            }
 
         } else if (selectedBottomTab == 1) {
             Box(modifier = Modifier.padding(paddingValues)) {
@@ -348,6 +366,82 @@ fun DashboardScreen() {
                     navigateToAwardsShop()
                 }
             )
+        }
+    }
+}
+
+@Composable
+fun ContinueWatchingPopup(
+    modifier: Modifier = Modifier,
+    onDismiss: () -> Unit,
+    onClick: () -> Unit
+) {
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp)
+            .background(Color(0xFF5B308A).copy(alpha = 0.95f), RoundedCornerShape(12.dp))
+            .clickable { onClick() }
+    ) {
+        Row(
+            modifier = Modifier.padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            // Image
+            Image(
+                painter = painterResource(id = R.drawable.reels_film_strip_banner),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(60.dp, 80.dp)
+                    .clip(RoundedCornerShape(8.dp)),
+                contentScale = ContentScale.Crop
+            )
+            
+            Spacer(modifier = Modifier.width(12.dp))
+            
+            // Text column
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = "I became his trophy",
+                    color = Color.White,
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 16.sp,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis
+                )
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(
+                    text = "Continue Watching",
+                    color = Color.White.copy(alpha = 0.8f),
+                    fontSize = 14.sp
+                )
+                Text(
+                    text = "Episode 1",
+                    color = Color.White.copy(alpha = 0.6f),
+                    fontSize = 12.sp
+                )
+            }
+            
+            // Play Button
+            Icon(
+                imageVector = Icons.Default.PlayArrow,
+                contentDescription = "Play",
+                tint = Color.White,
+                modifier = Modifier.size(36.dp)
+            )
+            
+            Spacer(modifier = Modifier.width(8.dp))
+        }
+        
+        // Dismiss button
+        IconButton(
+            onClick = onDismiss,
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .padding(4.dp)
+                .size(24.dp)
+        ) {
+            Icon(Icons.Default.Close, contentDescription = "Close", tint = Color.White, modifier = Modifier.size(16.dp))
         }
     }
 }

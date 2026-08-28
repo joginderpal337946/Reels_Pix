@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Reels_Pix"
+rootProject.name = "Dramzz"
 include(":app")
  

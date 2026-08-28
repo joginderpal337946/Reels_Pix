@@ -54,15 +54,25 @@ fun SignInScreen(onBackClick: () -> Unit) {
             )
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 // ReelPix Logo
-                Image(
-                    painter = painterResource(id = R.drawable.app_logo),
-                    contentDescription = "ReelPix Logo",
-                    modifier = Modifier.size(60.dp)
-                )
+                Box(
+                    modifier = Modifier
+                        .size(130.dp)
+                        .background(Color.White, shape = androidx.compose.foundation.shape.CircleShape)
+                        .padding(24.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.app_logo),
+                        contentDescription = "ReelPix Logo",
+                        modifier = Modifier.fillMaxSize()
+                    )
+                }
                 Spacer(modifier = Modifier.height(16.dp))
-                Text("ReelPix", color = Color.White, fontSize = 24.sp, fontWeight = FontWeight.Bold)
+                Text("Dramzz", color = Color.White, fontSize = 24.sp, fontWeight = FontWeight.Bold)
             }
         }
+        
+        Spacer(modifier = Modifier.height(32.dp))
         
         // Sign in with Google Button
         Button(
@@ -87,8 +97,19 @@ fun SignInScreen(onBackClick: () -> Unit) {
         
         Spacer(modifier = Modifier.weight(1f))
         
+        val annotatedText = androidx.compose.ui.text.buildAnnotatedString {
+            append("By continuing, you accept our ")
+            withStyle(style = androidx.compose.ui.text.SpanStyle(textDecoration = androidx.compose.ui.text.style.TextDecoration.Underline)) {
+                append("Terms of Use")
+            }
+            append(" and ")
+            withStyle(style = androidx.compose.ui.text.SpanStyle(textDecoration = androidx.compose.ui.text.style.TextDecoration.Underline)) {
+                append("Privacy Policy")
+            }
+        }
+        
         Text(
-            text = "By continuing, you accept our Terms of Use and Privacy Policy",
+            text = annotatedText,
             color = Color.Gray,
             fontSize = 12.sp,
             modifier = Modifier.padding(bottom = 32.dp)

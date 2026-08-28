@@ -57,7 +57,7 @@ fun ProfileScreen(
                         modifier = Modifier
                             .size(40.dp)
                             .clip(CircleShape)
-                            .background(Color(0xFF673AB7)),
+                            .background(Color(0xFFFFFFFF)),
                         contentAlignment = Alignment.Center
                     ) {
                         Image(
