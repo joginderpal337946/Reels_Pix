@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">Dramzz</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_feed">الخلاصة</string>
+    <string name="nav_my_list">قائمتي</string>
+    <string name="nav_awards">الجوائز</string>
+    <string name="nav_profile">الملف الشخصي</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_search">بحث</string>
+    <string name="desc_back">رجوع</string>
+    <string name="desc_more_options">المزيد من الخيارات</string>
+    <string name="desc_like">إعجاب</string>
+    <string name="desc_bookmark">حفظ</string>
+    <string name="desc_close">إغلاق</string>
+    <string name="desc_empty_favorites">مفضلة فارغة</string>
+    <string name="desc_save">حفظ</string>
+    <string name="desc_mailbox_illustration">رسم صندوق البريد</string>
+    <string name="desc_locked">مقفل</string>
+    <string name="desc_avatar">الصورة الرمزية</string>
+    <string name="desc_wallet">المحفظة</string>
+    <string name="desc_coin">عملة</string>
+    <string name="desc_telegram">تليغرام</string>
+    <string name="desc_facebook">فيسبوك</string>
+    <string name="desc_instagram">انستغرام</string>
+    <string name="desc_tiktok">تيك توك</string>
+    <string name="desc_history">السجل</string>
+    <string name="desc_empty_coin">عملة فارغة</string>
+    <string name="desc_background">خلفية</string>
+    <string name="desc_reelpix_logo">شعار ReelPix</string>
+    <string name="desc_google">جوجل</string>
+    <string name="desc_selected">محدد</string>
+    <string name="desc_unselected">غير محدد</string>
+    <string name="desc_see_all">عرض الكل</string>
+    <string name="desc_views">المشاهدات</string>
+    <string name="desc_episode">حلقة</string>
+    <string name="desc_send">إرسال</string>
+
+    <!-- General Texts -->
+    <string name="video_settings">الإعدادات</string>
+    <string name="video_send">إرسال</string>
+    <string name="video_episode">حلقة</string>
+    <string name="search_cancel">إلغاء</string>
+    <string name="search_exclusive">حصري</string>
+    <string name="watch_now">شاهد الآن</string>
+    <string name="settings_quality">الجودة</string>
+    <string name="settings_subtitles">الترجمة</string>
+    <string name="settings_playback_speed">سرعة التشغيل</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_trophy_title">أصبحت كأسه</string>
+    <string name="dashboard_new_releases">إصدارات جديدة</string>
+    <string name="dashboard_trending">الرائج الآن</string>
+    <string name="dashboard_continue_watching">متابعة المشاهدة</string>
+
+    <!-- Tabs and Settings -->
+    <string name="tab_favorites">المفضلة</string>
+    <string name="tab_history">السجل</string>
+    <string name="tab_rewards">المكافآت</string>
+    <string name="tab_purchase">شراء</string>
+    <string name="tab_shop">المتجر</string>
+
+    <string name="setting_language">اللغة</string>
+    <string name="setting_invitation_code">رمز الدعوة</string>
+    <string name="setting_feedback">تعليقات</string>
+    <string name="setting_user_agreement">اتفاقية المستخدم</string>
+    <string name="setting_privacy_policy">سياسة الخصوصية</string>
+    <string name="setting_share_app">مشاركة التطبيق</string>
+    <string name="setting_rate_app">تقييم التطبيق</string>
+    <string name="setting_delete_account">حذف الحساب</string>
+    <string name="profile_sign_out">تسجيل الخروج</string>
+    <string name="dialog_logout_title">تسجيل الخروج</string>
+    <string name="dialog_logout_message">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="dialog_delete_account_title">حذف الحساب</string>
+    <string name="dialog_delete_account_message">هل أنت متأكد أنك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="dialog_yes">نعم</string>
+    <string name="dialog_cancel">إلغاء</string>
+    
+    <string name="video_quality_auto">Auto</string>
+    <string name="video_lang_english">English</string>
+    <string name="video_lang_espanol">Español</string>
+    <string name="video_lang_portugues">Português</string>
+    <string name="video_lang_turkce">Türkçe</string>
+
+    <!-- Additional Missing Strings -->
+    <string name="transaction_daily_login">مكافأة الدخول اليومي</string>
+    <string name="transaction_history_empty">سيتم عرض سجل الشراء هنا</string>
+    <string name="find_out_more">اكتشف المزيد</string>
+    
+    <string name="topup_price_format">السعر: %s </string>
+    <string name="topup_balance_format">الرصيد: %s</string>
+    
+    <string name="signin_google">تسجيل الدخول باستخدام جوجل</string>
+    
+    <string name="search_placeholder">مقدر له أن يكون</string>
+    
+    <string name="profile_anonymous">مجهول</string>
+    <string name="profile_sign_in">تسجيل الدخول</string>
+    
+    <string name="wallet_title">محفظتي</string>
+    <string name="wallet_balance">الرصيد</string>
+    <string name="wallet_coins">عملات</string>
+    <string name="wallet_top_up">شحن</string>
+    <string name="wallet_transaction_history">سجل المعاملات</string>
+    
+    <string name="my_list_open_more">فتح المزيد</string>
+    <string name="language_title">اللغة</string>
+    
+    <string name="awards_balance">الرصيد</string>
+    <string name="awards_claim_bonuses">المطالبة بالمكافآت</string>
+    <string name="awards_invite_friend">دعوة صديق</string>
+    <string name="awards_coins_for_friend">عملات لكل صديق</string>
+    <string name="awards_buy">شراء</string>
+    <string name="awards_subscription_privileges">امتيازات الاشتراك</string>
+    <string name="awards_subscribe_now">اشترك الآن</string>
+    <string name="awards_invite_title">قم بدعوة صديق واحصل على مكافأة</string>
+    <string name="awards_share">مشاركة</string>
+    <string name="awards_how_it_works">كيف تعمل؟</string>
+    <string name="awards_rule_1">1. شارك رمز الدعوة الخاص بك مع صديق</string>
+    <string name="awards_rule_2">2. يتبع صديقك الرابط أو يدخل الرمز يدويًا</string>
+    <string name="awards_rule_3">3. ستحصل أنت وصديقك على 100 عملة</string>
+    <string name="awards_coins_purchase">شراء العملات</string>
+    
+    <string name="dashboard_coming_soon">محتوى علامة التبويب %s قريبًا</string>
+    
+    <string name="no_internet_title">لا يوجد اتصال بالإنترنت</string>
+    <string name="no_internet_message">يرجى التحقق من إعدادات الشبكة والمحاولة مرة أخرى. يتطلب التطبيق اتصالاً نشطًا ليعمل.</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_play">تشغيل</string>
+    <string name="desc_treasure_chest">صندوق الكنز</string>
+    <string name="desc_invite">دعوة</string>
+    <string name="desc_no_internet">لا يوجد إنترنت</string>
+    
+    <!-- Top Up Bottom Sheet -->
+    <string name="topup_message">لمواصلة المشاهدة،
+اشحن
+رصيدك أو اشترك</string>
+    <string name="topup_view_all">عرض الكل</string>
+
+    <!-- My List Screen -->
+    <string name="my_list_empty">لا شيء هنا بعد. أضف شيئًا!</string>
+
+    <!-- Invitation Code Screen -->
+    <string name="invitation_message">هل لديك رمز دعوة؟ أدخله أدناه للحصول على عملة داخل التطبيق يمكن استخدامها لمشاهدة مسلسلات حصرية.</string>
+    <string name="invitation_label">رمز الدعوة</string>
+    <string name="invitation_activate">تفعيل</string>
+
+    <!-- No Internet Bottom Sheet -->
+
+    <!-- Awards Screen -->
+    <string name="awards_terms_privacy">بالمتابعة، فإنك تقبل شروط الاستخدام وسياسة الخصوصية الخاصة بنا</string>
+    <string name="awards_pack_format">حزمة %1$d عملات %2$s مكافآت</string>
+    <string name="awards_subscription_format">الوصول عن طريق الاشتراك: %1$s</string>
+
+    <!-- Formats -->
+    <string name="episode_format">الحلقة %1$d</string>
+    <!-- New Strings -->
+    <string name="awards_today">اليوم</string>
+    <string name="awards_day">اليوم %d</string>
+    <string name="awards_todays_rewards">مكافآت اليوم</string>
+    <string name="awards_watch_ad">مشاهدة إعلان</string>
+    <string name="awards_watch_ad_desc">لكسب العملات</string>
+    <string name="awards_registration">مكافأة التسجيل</string>
+    <string name="awards_registration_desc">أنشئ حسابًا في التطبيق واحصل على مكافأة!</string>
+    <string name="awards_push">تشغيل إشعارات الدفع</string>
+    <string name="awards_push_desc">قم بتشغيل إشعارات الدفع واحصل على مكافأة!</string>
+    <string name="sub_1_week">أسبوع واحد</string>
+    <string name="sub_1_month">شهر واحد</string>
+    <string name="sub_1_year">سنة واحدة</string>
+    <string name="profile_watch_restrictions">مشاهدة بدون قيود</string>
+    <string name="profile_unlock_episodes">فتح الحلقات:</string>
+    <string name="profile_version">الإصدار %s</string>
+    <string name="awards_follow_fb">تابعنا على الفيسبوك</string>
+    <string name="awards_follow_tiktok">تابعنا على تيك توك</string>
+    <string name="awards_follow_ig">تابعنا على انستغرام</string>
+    <string name="awards_follow_tg">تابعنا على تليغرام</string>
+    <string name="empty"></string>
+    <string name="awards_coins_rule_2">2. يمكن ربح عملات المكافآت من خلال إكمال المهام أو تعبئة رصيدك. يمكن استخدامها بجانب العملات العادية لفتح الحلقات.
+</string>
+    <string name="awards_coins_rule_3">3. لا تنتهي صلاحية عملات المكافآت ويتم إنفاقها أولاً عند فتح المحتوى.
+</string>
+    <string name="awards_rules_info">القواعد والمعلومات:
+1. يقدم ReelPix مسلسلات مجانية ومدفوعة. أنت تقرر ما تريد مشاهدته والمحتوى الذي تريد فتحه.
+2. يمكن ربح عملات المكافآت من خلال إكمال المهام أو تعبئة رصيدك. يمكن استخدامها بجانب العملات العادية لفتح الحلقات.
+3. لا تنتهي صلاحية عملات المكافآت ويتم إنفاقها أولاً عند فتح المحتوى.
+4. يوفر الاشتراك وصولاً غير محدود إلى جميع مسلسلات ReelPix طوال فترة الاشتراك.
+5. يستغرق تفعيل الاشتراك ما يصل إلى 24 ساعة بعد الشراء ويعتمد على تأكيد من Google Play.
+6. سيتم تجديد اشتراكك تلقائيًا بنفس السعر حتى نهاية الفترة الحالية ما لم تقم بإلغائه مسبقًا.
+7. لإلغاء اشتراكك، انتقل إلى تطبيق Google Play -> الدفعات والاشتراكات -> الاشتراكات -> ReelPix -> إلغاء الاشتراك، قبل 24 ساعة على الأقل من نهاية الفترة الحالية.
+8. قد تختلف الأسعار حسب منطقتك.
+9. لأي أسئلة - اتصل بفريق الدعم لدينا: support@limexltd.com</string>
+    <string name="awards_privilege_1">يمكن المشاهدة من البداية إلى النهاية</string>
+    <string name="awards_privilege_2">إلغاء الاشتراك في أي وقت</string>
+    <string name="awards_privilege_3">وصول غير محدود لمشاهدة الحلقات</string>
+    <string name="awards_privilege_4">أي مسلسل متاح حتى نهاية فترة الاشتراك</string>
+</resources>

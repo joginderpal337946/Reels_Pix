@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.dramzz.reels_pix" />
+                  <option name="mobileSdkAppId" value="1:863267296983:android:371a2c58de286d20cc8292" />
+                  <option name="projectId" value="green-parcel" />
+                  <option name="projectNumber" value="863267296983" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

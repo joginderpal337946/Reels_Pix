@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dramzz</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Início</string>
+    <string name="nav_feed">Feed</string>
+    <string name="nav_my_list">Minha lista</string>
+    <string name="nav_awards">Prêmios</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_search">Buscar</string>
+    <string name="desc_back">Voltar</string>
+    <string name="desc_more_options">Mais opções</string>
+    <string name="desc_like">Curtir</string>
+    <string name="desc_bookmark">Salvar</string>
+    <string name="desc_close">Fechar</string>
+    <string name="desc_empty_favorites">Favoritos Vazios</string>
+    <string name="desc_save">Salvar</string>
+    <string name="desc_mailbox_illustration">Ilustração de caixa de correio</string>
+    <string name="desc_locked">Bloqueado</string>
+    <string name="desc_avatar">Avatar</string>
+    <string name="desc_wallet">Carteira</string>
+    <string name="desc_coin">Moeda</string>
+    <string name="desc_telegram">Telegram</string>
+    <string name="desc_facebook">Facebook</string>
+    <string name="desc_instagram">Instagram</string>
+    <string name="desc_tiktok">TikTok</string>
+    <string name="desc_history">Histórico</string>
+    <string name="desc_empty_coin">Moeda vazia</string>
+    <string name="desc_background">Fundo</string>
+    <string name="desc_reelpix_logo">Logo ReelPix</string>
+    <string name="desc_google">Google</string>
+    <string name="desc_selected">Selecionado</string>
+    <string name="desc_unselected">Não selecionado</string>
+    <string name="desc_see_all">Ver tudo</string>
+    <string name="desc_views">Visualizações</string>
+    <string name="desc_episode">Episódio</string>
+    <string name="desc_send">Enviar</string>
+    <string name="desc_treasure_chest">Baú do tesouro</string>
+    <string name="desc_invite">Convidar</string>
+    <string name="desc_no_internet">Sem Internet</string>
+
+    <!-- General Texts -->
+    <string name="video_settings">Configurações</string>
+    <string name="video_send">Enviar</string>
+    <string name="video_episode">Episódio</string>
+    <string name="search_cancel">Cancelar</string>
+    <string name="search_exclusive">Exclusivo</string>
+    <string name="watch_now">Assistir Agora</string>
+    <string name="settings_quality">Qualidade</string>
+    <string name="settings_subtitles">Legendas</string>
+    <string name="settings_playback_speed">Velocidade de reprodução</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_trophy_title">Eu me tornei o troféu dele</string>
+    <string name="dashboard_new_releases">Novos Lançamentos</string>
+    <string name="dashboard_trending">Em alta</string>
+    <string name="dashboard_continue_watching">Continuar assistindo</string>
+
+    <!-- Tabs and Settings -->
+    <string name="tab_favorites">Favoritos</string>
+    <string name="tab_history">Histórico</string>
+    <string name="tab_rewards">Recompensas</string>
+    <string name="tab_purchase">Comprar</string>
+    <string name="tab_shop">Loja</string>
+
+    <string name="setting_language">Idioma</string>
+    <string name="setting_invitation_code">Código de convite</string>
+    <string name="setting_feedback">Feedback</string>
+    <string name="setting_user_agreement">Acordo de Usuário</string>
+    <string name="setting_privacy_policy">Política de Privacidade</string>
+    <string name="setting_share_app">Compartilhar App</string>
+    <string name="setting_rate_app">Avaliar App</string>
+    <string name="setting_delete_account">Excluir conta</string>
+    <string name="profile_sign_out">Sair</string>
+    <string name="dialog_logout_title">Sair</string>
+    <string name="dialog_logout_message">Tem certeza de que deseja sair?</string>
+    <string name="dialog_delete_account_title">Excluir conta</string>
+    <string name="dialog_delete_account_message">Tem certeza de que deseja excluir sua conta? Esta ação não pode ser desfeita.</string>
+    <string name="dialog_yes">Sim</string>
+    <string name="dialog_cancel">Cancelar</string>
+
+    <string name="video_quality_auto">Auto</string>
+    <string name="video_lang_english">English</string>
+    <string name="video_lang_espanol">Español</string>
+    <string name="video_lang_portugues">Português</string>
+    <string name="video_lang_turkce">Türkçe</string>
+
+    <!-- Additional Strings -->
+    <string name="transaction_daily_login">Recompensa diária</string>
+    <string name="transaction_history_empty">O histórico de compras será exibido aqui</string>
+    <string name="find_out_more">Saiba mais</string>
+    
+    <string name="topup_price_format">Preço: %s </string>
+    <string name="topup_balance_format">Saldo: %s</string>
+    
+    <string name="signin_google">Entrar com o Google</string>
+    <string name="search_placeholder">Destinado a Ser</string>
+    <string name="profile_anonymous">Anônimo</string>
+    <string name="profile_sign_in">Entrar</string>
+    
+    <string name="wallet_title">Minha Carteira</string>
+    <string name="wallet_balance">Saldo</string>
+    <string name="wallet_coins">Moedas</string>
+    <string name="wallet_top_up">Recarregar</string>
+    <string name="wallet_transaction_history">Histórico de transações</string>
+    
+    <string name="my_list_open_more">Abrir mais</string>
+    <string name="language_title">Idioma</string>
+    
+    <string name="awards_balance">Saldo</string>
+    <string name="awards_claim_bonuses">Resgatar bônus</string>
+    <string name="awards_invite_friend">Convidar Amigo</string>
+    <string name="awards_coins_for_friend">moedas por cada amigo</string>
+    <string name="awards_buy">Comprar</string>
+    <string name="awards_subscription_privileges">Privilégios de Assinatura</string>
+    <string name="awards_subscribe_now">Assinar agora</string>
+    <string name="awards_invite_title">Convide um amigo e ganhe uma recompensa</string>
+    <string name="awards_share">Compartilhar</string>
+    <string name="awards_how_it_works">Como funciona?</string>
+    <string name="awards_rule_1">1. Compartilhe seu código de convite com um amigo</string>
+    <string name="awards_rule_2">2. Seu amigo segue o link ou insere o código manualmente</string>
+    <string name="awards_rule_3">3. Você e seu amigo receberão 100 moedas</string>
+    <string name="awards_coins_purchase">Compra de moedas</string>
+    
+    <string name="dashboard_coming_soon">Conteúdo para a aba %s em breve</string>
+    
+    <string name="no_internet_title">Sem conexão com a Internet</string>
+    <string name="no_internet_message">Verifique as configurações de rede e tente novamente. O aplicativo requer uma conexão ativa para funcionar.</string>
+
+    <string name="topup_message">Para continuar assistindo,
+recarregue seu
+saldo ou assine</string>
+    <string name="topup_view_all">Ver tudo</string>
+
+    <string name="my_list_empty">Nada aqui ainda. Adicione algo!</string>
+
+    <string name="invitation_message">Você tem um código de convite? Insira-o abaixo para receber moeda no aplicativo que pode ser usada para assistir a séries exclusivas.</string>
+    <string name="invitation_label">Código de convite</string>
+    <string name="invitation_activate">Ativar</string>
+
+    <string name="awards_terms_privacy">Ao continuar, você aceita nossos Termos de Uso e Política de Privacidade</string>
+    <string name="awards_pack_format">Pacote %1$d moedas %2$s bônus</string>
+    <string name="awards_subscription_format">Acesso por assinatura: %1$s</string>
+
+    <string name="episode_format">Episódio %1$d</string>
+    <string name="awards_today">Hoje</string>
+    <string name="awards_day">Dia %d</string>
+    <string name="awards_todays_rewards">Recompensas de Hoje</string>
+    <string name="awards_watch_ad">Assistir a um Anúncio</string>
+    <string name="awards_watch_ad_desc">Para ganhar moedas</string>
+    <string name="awards_registration">A recompensa pelo registro</string>
+    <string name="awards_registration_desc">Crie uma conta no aplicativo e seja recompensado!</string>
+    <string name="awards_push">Ativar notificações push</string>
+    <string name="awards_push_desc">Ative as notificações push e seja recompensado!</string>
+    <string name="sub_1_week">1 semana</string>
+    <string name="sub_1_month">1 mês</string>
+    <string name="sub_1_year">1 ano</string>
+    <string name="profile_watch_restrictions">Assistir sem restrições</string>
+    <string name="profile_unlock_episodes">Desbloquear episódios:</string>
+    <string name="profile_version">Versão %s</string>
+    <string name="awards_follow_fb">Siga-nos no Facebook</string>
+    <string name="awards_follow_tiktok">Siga-nos no TikTok</string>
+    <string name="awards_follow_ig">Siga-nos no Instagram</string>
+    <string name="awards_follow_tg">Siga-nos no Telegram</string>
+    <string name="empty"></string>
+    <string name="awards_coins_rule_2">2. As moedas de recompensa podem ser ganhas completando tarefas ou recarregando seu saldo. Elas podem ser usadas com moedas normais para desbloquear episódios.\n</string>
+    <string name="awards_coins_rule_3">3. As moedas de recompensa não expiram e são gastas primeiro ao desbloquear conteúdo.\n</string>
+    <string name="awards_rules_info">Regras e Informações:\n1. ReelPix oferece séries gratuitas e pagas. Você decide o que assistir e qual conteúdo desbloquear.\n2. As moedas de recompensa podem ser ganhas completando tarefas ou recarregando seu saldo. Elas podem ser usadas com moedas normais para desbloquear episódios.\n3. As moedas de recompensa não expiram e são gastas primeiro ao desbloquear conteúdo.\n4. Uma assinatura fornece acesso ilimitado a todas as séries ReelPix durante o período de assinatura.\n5. A ativação da assinatura leva até 24 horas após a compra e depende da confirmação do Google Play.\n6. Sua assinatura será renovada automaticamente pelo mesmo preço até o final do período atual, a menos que você cancele com antecedência.\n7. Para cancelar sua assinatura, vá para o aplicativo Google Play -> Pagamentos e assinaturas -> Assinaturas -> ReelPix -> Cancelar assinatura, pelo menos 24 horas antes do final do período atual.\n8. Os preços podem variar dependendo da sua região.\n9. Para qualquer dúvida, entre em contato com nossa equipe de suporte: support@limexltd.com</string>
+    <string name="awards_privilege_1">Pode assistir do começo ao fim</string>
+    <string name="awards_privilege_2">Cancele a assinatura a qualquer momento</string>
+    <string name="awards_privilege_3">Acesso ilimitado à visualização de episódios</string>
+    <string name="awards_privilege_4">Qualquer série disponível até o final do período de assinatura</string>
+    <string name="desc_play">Reproduzir</string>
+</resources>
+

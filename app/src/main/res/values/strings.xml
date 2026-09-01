@@ -1,3 +1,187 @@
 <resources>
     <string name="app_name">Dramzz</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_feed">Feed</string>
+    <string name="nav_my_list">My list</string>
+    <string name="nav_awards">Awards</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_search">Search</string>
+    <string name="desc_back">Back</string>
+    <string name="desc_more_options">More options</string>
+    <string name="desc_like">Like</string>
+    <string name="desc_bookmark">Bookmark</string>
+    <string name="desc_close">Close</string>
+    <string name="desc_empty_favorites">Empty Favorites</string>
+    <string name="desc_save">Save</string>
+    <string name="desc_mailbox_illustration">Mailbox Illustration</string>
+    <string name="desc_locked">Locked</string>
+    <string name="desc_avatar">Avatar</string>
+    <string name="desc_wallet">Wallet</string>
+    <string name="desc_coin">Coin</string>
+    <string name="desc_telegram">Telegram</string>
+    <string name="desc_facebook">Facebook</string>
+    <string name="desc_instagram">Instagram</string>
+    <string name="desc_tiktok">TikTok</string>
+    <string name="desc_history">History</string>
+    <string name="desc_empty_coin">Empty Coin</string>
+    <string name="desc_background">Background</string>
+    <string name="desc_reelpix_logo">ReelPix Logo</string>
+    <string name="desc_google">Google</string>
+    <string name="desc_selected">Selected</string>
+    <string name="desc_unselected">Unselected</string>
+    <string name="desc_see_all">See All</string>
+    <string name="desc_views">Views</string>
+    <string name="desc_episode">Episode</string>
+    <string name="desc_send">Send</string>
+
+    <!-- General Texts -->
+    <string name="video_settings">Settings</string>
+    <string name="video_send">Send</string>
+    <string name="video_episode">Episode</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="search_exclusive">Exclusive</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="settings_quality">Quality</string>
+    <string name="settings_subtitles">Subtitles</string>
+    <string name="settings_playback_speed">Playback Speed</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_trophy_title">I became his trophy</string>
+    <string name="dashboard_new_releases">New Releases</string>
+    <string name="dashboard_trending">Trending Now</string>
+    <string name="dashboard_continue_watching">Continue Watching</string>
+
+    <!-- Tabs and Settings -->
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_history">History</string>
+    <string name="tab_rewards">Rewards</string>
+    <string name="tab_purchase">Purchase</string>
+    <string name="tab_shop">Shop</string>
+
+    <string name="setting_language">Language</string>
+    <string name="setting_invitation_code">Invitation code</string>
+    <string name="setting_feedback">Feedback</string>
+    <string name="setting_user_agreement">User Agreement</string>
+    <string name="setting_privacy_policy">Privacy Policy</string>
+    <string name="setting_share_app">Share App</string>
+    <string name="setting_rate_app">Rate App</string>
+    <string name="setting_delete_account">Delete Account</string>
+    <string name="profile_sign_out">Sign Out</string>
+    <string name="dialog_logout_title">Log Out</string>
+    <string name="dialog_logout_message">Are you sure you want to log out?</string>
+    <string name="dialog_delete_account_title">Delete Account</string>
+    <string name="dialog_delete_account_message">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="video_quality_auto">Auto</string>
+    <string name="video_lang_english">English</string>
+    <string name="video_lang_espanol">Español</string>
+    <string name="video_lang_portugues">Português</string>
+    <string name="video_lang_turkce">Türkçe</string>
+
+    <!-- Additional Missing Strings -->
+    <string name="transaction_daily_login">Daily Login Reward</string>
+    <string name="transaction_history_empty">Purchase history will be displayed here</string>
+    <string name="find_out_more">Find out more</string>
+    
+    <string name="topup_price_format">Price: %s </string>
+    <string name="topup_balance_format">Balance: %s</string>
+    
+    <string name="signin_google">Sign in with Google</string>
+    
+    <string name="search_placeholder">Destined To Be</string>
+    
+    <string name="profile_anonymous">Anonymous</string>
+    <string name="profile_sign_in">Sign In</string>
+    
+    <string name="wallet_title">My Wallet</string>
+    <string name="wallet_balance">Balance</string>
+    <string name="wallet_coins">Coins</string>
+    <string name="wallet_top_up">Top Up</string>
+    <string name="wallet_transaction_history">Transaction History</string>
+    
+    <string name="my_list_open_more">Open more</string>
+    <string name="language_title">Language</string>
+    
+    <string name="awards_balance">Balance</string>
+    <string name="awards_claim_bonuses">Claim Bonuses</string>
+    <string name="awards_invite_friend">Invite Friend</string>
+    <string name="awards_coins_for_friend">coins for each friend</string>
+    <string name="awards_buy">Buy</string>
+    <string name="awards_subscription_privileges">Subscription Privileges</string>
+    <string name="awards_subscribe_now">Subscribe now</string>
+    <string name="awards_invite_title">Invite a friend and get a reward</string>
+    <string name="awards_share">Share</string>
+    <string name="awards_how_it_works">How does it work\?</string>
+    <string name="awards_rule_1">1. Share your invitation code with a friend</string>
+    <string name="awards_rule_2">2. Your friend follows the link or enters the code manually</string>
+    <string name="awards_rule_3">3. You and your friend will receive 100 coins</string>
+    <string name="awards_coins_purchase">Coins purchase</string>
+    
+    <string name="dashboard_coming_soon">Content for Tab %s coming soon</string>
+    
+    <string name="no_internet_title">No Internet Connection</string>
+    <string name="no_internet_message">Please check your network settings and try again. The app requires an active connection to function.</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_play">Play</string>
+    <string name="desc_treasure_chest">Treasure Chest</string>
+    <string name="desc_invite">Invite</string>
+    <string name="desc_no_internet">No Internet</string>
+    
+    <!-- Top Up Bottom Sheet -->
+    <string name="topup_message">To continue watching, \ntop up your\nbalance or subscribe</string>
+    <string name="topup_view_all">View all</string>
+
+    <!-- My List Screen -->
+    <string name="my_list_empty">Nothing here yet. Add something!</string>
+
+    <!-- Invitation Code Screen -->
+    <string name="invitation_message">Do you have an invitation code? Enter it below to receive in-app currency that can be used to watch exclusive series.</string>
+    <string name="invitation_label">Invitation code</string>
+    <string name="invitation_activate">Activate</string>
+
+    <!-- No Internet Bottom Sheet -->
+
+    <!-- Awards Screen -->
+    <string name="awards_terms_privacy">By continuing, you accept our Terms of Use and Privacy Policy</string>
+    <string name="awards_pack_format">Pack %1$d coins %2$s bonuses</string>
+    <string name="awards_subscription_format">Access by subscription: %1$s</string>
+
+    <!-- Formats -->
+    <string name="episode_format">Episode %1$d</string>
+    <!-- New Strings -->
+    <string name="awards_today">Today</string>
+    <string name="awards_day">Day %d</string>
+    <string name="awards_todays_rewards">Today\'s Rewards</string>
+    <string name="awards_watch_ad">Watch an Ad</string>
+    <string name="awards_watch_ad_desc">To earn coins</string>
+    <string name="awards_registration">The reward for registration</string>
+    <string name="awards_registration_desc">Create an account in the app and get rewarded!</string>
+    <string name="awards_push">Turn on push notifications</string>
+    <string name="awards_push_desc">Turn on push notifications and get rewarded!</string>
+    
+    <string name="sub_1_week">1 week</string>
+    <string name="sub_1_month">1 month</string>
+    <string name="sub_1_year">1 year</string>
+    
+    <string name="profile_watch_restrictions">Watch without restrictions</string>
+    <string name="profile_unlock_episodes">Unlock episodes:</string>
+    <string name="profile_version">Version %s</string>
+    <string name="awards_follow_fb">Follow us on Facebook</string>
+    <string name="awards_follow_tiktok">Follow us on TikTok</string>
+    <string name="awards_follow_ig">Follow us on Instagram</string>
+    <string name="awards_follow_tg">Follow us on Telegram</string>
+    <string name="empty"></string>
+    <string name="awards_coins_rule_2">2. Reward coins can be earned by completing tasks or topping up your balance. They can be used alongside regular coins to unlock episodes.\n</string>
+    <string name="awards_coins_rule_3">3. Reward coins do not expire and are spent first when unlocking content.\n</string>
+    <string name="awards_rules_info">Rules and Information:\n1. ReelPix offers both free and paid series. You decide what to watch and which content to unlock.\n2. Reward coins can be earned by completing tasks or topping up your balance. They can be used alongside regular coins to unlock episodes.\n3. Reward coins do not expire and are spent first when unlocking content.\n4. A subscription provides unlimited access to all ReelPix series for the duration of the subscription period.\n5. Subscription activation takes up to 24 hours after purchase and depends on confirmation from the Google Play.\n6. Your subscription will automatically renew at the same price until the end of the current period unless you cancel it in advance.\n7. To cancel your subscription, go to the Google Play app -> Payments &amp; subscriptions -> Subscriptions -> ReelPix -> Cancel subscription, at least 24 hours before the end of the current period.\n8. Prices may vary depending on your region.\n9. For any questions - contact our support team: support@limexltd.com</string>
+    <string name="awards_privilege_1">Can watch from beginning to end</string>
+    <string name="awards_privilege_2">Cancel subscription at any time</string>
+    <string name="awards_privilege_3">Unlimited access to episode viewing</string>
+    <string name="awards_privilege_4">Any series available until the end of subscription period</string>
 </resources>

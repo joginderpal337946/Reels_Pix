@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">Dramzz</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_feed">Akış</string>
+    <string name="nav_my_list">Listem</string>
+    <string name="nav_awards">Ödüller</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_search">Ara</string>
+    <string name="desc_back">Geri</string>
+    <string name="desc_more_options">Daha fazla seçenek</string>
+    <string name="desc_like">Beğen</string>
+    <string name="desc_bookmark">Kaydet</string>
+    <string name="desc_close">Kapat</string>
+    <string name="desc_empty_favorites">Boş Favoriler</string>
+    <string name="desc_save">Kaydet</string>
+    <string name="desc_mailbox_illustration">Posta Kutusu Görseli</string>
+    <string name="desc_locked">Kilitli</string>
+    <string name="desc_avatar">Avatar</string>
+    <string name="desc_wallet">Cüzdan</string>
+    <string name="desc_coin">Jeton</string>
+    <string name="desc_telegram">Telegram</string>
+    <string name="desc_facebook">Facebook</string>
+    <string name="desc_instagram">Instagram</string>
+    <string name="desc_tiktok">TikTok</string>
+    <string name="desc_history">Geçmiş</string>
+    <string name="desc_empty_coin">Boş Jeton</string>
+    <string name="desc_background">Arka Plan</string>
+    <string name="desc_reelpix_logo">ReelPix Logosu</string>
+    <string name="desc_google">Google</string>
+    <string name="desc_selected">Seçili</string>
+    <string name="desc_unselected">Seçili değil</string>
+    <string name="desc_see_all">Tümünü Gör</string>
+    <string name="desc_views">Görüntülenme</string>
+    <string name="desc_episode">Bölüm</string>
+    <string name="desc_send">Gönder</string>
+
+    <!-- General Texts -->
+    <string name="video_settings">Ayarlar</string>
+    <string name="video_send">Gönder</string>
+    <string name="video_episode">Bölüm</string>
+    <string name="search_cancel">İptal</string>
+    <string name="search_exclusive">Özel</string>
+    <string name="watch_now">Şimdi İzle</string>
+    <string name="settings_quality">Kalite</string>
+    <string name="settings_subtitles">Altyazılar</string>
+    <string name="settings_playback_speed">Oynatma Hızı</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_trophy_title">Onun kupası oldum</string>
+    <string name="dashboard_new_releases">Yeni Çıkanlar</string>
+    <string name="dashboard_trending">Trendler</string>
+    <string name="dashboard_continue_watching">İzlemeye Devam Et</string>
+
+    <!-- Tabs and Settings -->
+    <string name="tab_favorites">Favoriler</string>
+    <string name="tab_history">Geçmiş</string>
+    <string name="tab_rewards">Ödüller</string>
+    <string name="tab_purchase">Satın Al</string>
+    <string name="tab_shop">Mağaza</string>
+
+    <string name="setting_language">Dil</string>
+    <string name="setting_invitation_code">Davet Kodu</string>
+    <string name="setting_feedback">Geri Bildirim</string>
+    <string name="setting_user_agreement">Kullanıcı Sözleşmesi</string>
+    <string name="setting_privacy_policy">Gizlilik Politikası</string>
+    <string name="setting_share_app">Uygulamayı Paylaş</string>
+    <string name="setting_rate_app">Uygulamayı Değerlendir</string>
+    <string name="setting_delete_account">Hesabı Sil</string>
+    <string name="profile_sign_out">Çıkış Yap</string>
+    <string name="dialog_logout_title">Çıkış Yap</string>
+    <string name="dialog_logout_message">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="dialog_delete_account_title">Hesabı Sil</string>
+    <string name="dialog_delete_account_message">Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="dialog_yes">Evet</string>
+    <string name="dialog_cancel">İptal</string>
+    
+    <string name="video_quality_auto">Auto</string>
+    <string name="video_lang_english">English</string>
+    <string name="video_lang_espanol">Español</string>
+    <string name="video_lang_portugues">Português</string>
+    <string name="video_lang_turkce">Türkçe</string>
+
+    <!-- Additional Missing Strings -->
+    <string name="transaction_daily_login">Günlük Giriş Ödülü</string>
+    <string name="transaction_history_empty">Satın alma geçmişi burada görüntülenecek</string>
+    <string name="find_out_more">Daha fazlasını öğren</string>
+    
+    <string name="topup_price_format">Fiyat: %s </string>
+    <string name="topup_balance_format">Bakiye: %s</string>
+    
+    <string name="signin_google">Google ile Giriş Yap</string>
+    
+    <string name="search_placeholder">Kaderinde Var</string>
+    
+    <string name="profile_anonymous">Anonim</string>
+    <string name="profile_sign_in">Giriş Yap</string>
+    
+    <string name="wallet_title">Cüzdanım</string>
+    <string name="wallet_balance">Bakiye</string>
+    <string name="wallet_coins">Jeton</string>
+    <string name="wallet_top_up">Yükle</string>
+    <string name="wallet_transaction_history">İşlem Geçmişi</string>
+    
+    <string name="my_list_open_more">Daha fazla aç</string>
+    <string name="language_title">Dil</string>
+    
+    <string name="awards_balance">Bakiye</string>
+    <string name="awards_claim_bonuses">Bonusları Al</string>
+    <string name="awards_invite_friend">Arkadaş Davet Et</string>
+    <string name="awards_coins_for_friend">her arkadaş için jeton</string>
+    <string name="awards_buy">Satın Al</string>
+    <string name="awards_subscription_privileges">Abonelik Ayrıcalıkları</string>
+    <string name="awards_subscribe_now">Şimdi abone ol</string>
+    <string name="awards_invite_title">Bir arkadaşınızı davet edin ve ödül kazanın</string>
+    <string name="awards_share">Paylaş</string>
+    <string name="awards_how_it_works">Nasıl çalışır?</string>
+    <string name="awards_rule_1">1. Davet kodunu bir arkadaşınla paylaş</string>
+    <string name="awards_rule_2">2. Arkadaşın bağlantıyı tıklar veya kodu manuel olarak girer</string>
+    <string name="awards_rule_3">3. Sen ve arkadaşın 100 jeton alacaksınız</string>
+    <string name="awards_coins_purchase">Jeton satın al</string>
+    
+    <string name="dashboard_coming_soon">%s sekmesi için içerik yakında</string>
+    
+    <string name="no_internet_title">İnternet Bağlantısı Yok</string>
+    <string name="no_internet_message">Lütfen ağ ayarlarınızı kontrol edip tekrar deneyin. Uygulamanın çalışması için aktif bir bağlantı gerekir.</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_play">Oynat</string>
+    <string name="desc_treasure_chest">Hazine Sandığı</string>
+    <string name="desc_invite">Davet Et</string>
+    <string name="desc_no_internet">İnternet Yok</string>
+    
+    <!-- Top Up Bottom Sheet -->
+    <string name="topup_message">İzlemeye devam etmek için,
+bakiyenizi
+yükleyin veya abone olun</string>
+    <string name="topup_view_all">Tümünü gör</string>
+
+    <!-- My List Screen -->
+    <string name="my_list_empty">Henüz burada bir şey yok. Bir şeyler ekle!</string>
+
+    <!-- Invitation Code Screen -->
+    <string name="invitation_message">Davet kodunuz var mı? Özel dizileri izlemek için kullanılabilecek uygulama içi para birimini almak için aşağıya girin.</string>
+    <string name="invitation_label">Davet Kodu</string>
+    <string name="invitation_activate">Etkinleştir</string>
+
+    <!-- No Internet Bottom Sheet -->
+
+    <!-- Awards Screen -->
+    <string name="awards_terms_privacy">Devam ederek, Kullanım Koşullarımızı ve Gizlilik Politikamızı kabul edersiniz</string>
+    <string name="awards_pack_format">Paket %1$d jeton %2$s bonus</string>
+    <string name="awards_subscription_format">Abonelik ile erişim: %1$s</string>
+
+    <!-- Formats -->
+    <string name="episode_format">Bölüm %1$d</string>
+    <!-- New Strings -->
+    <string name="awards_today">Bugün</string>
+    <string name="awards_day">%d. Gün</string>
+    <string name="awards_todays_rewards">Bugünün Ödülleri</string>
+    <string name="awards_watch_ad">Reklam İzle</string>
+    <string name="awards_watch_ad_desc">Jeton kazanmak için</string>
+    <string name="awards_registration">Kayıt ödülü</string>
+    <string name="awards_registration_desc">Uygulamada bir hesap oluşturun ve ödül kazanın!</string>
+    <string name="awards_push">Push bildirimlerini aç</string>
+    <string name="awards_push_desc">Push bildirimlerini açın ve ödül kazanın!</string>
+    <string name="sub_1_week">1 hafta</string>
+    <string name="sub_1_month">1 ay</string>
+    <string name="sub_1_year">1 yıl</string>
+    <string name="profile_watch_restrictions">Kısıtlama olmadan izle</string>
+    <string name="profile_unlock_episodes">Bölümleri aç:</string>
+    <string name="profile_version">Sürüm %s</string>
+    <string name="awards_follow_fb">Bizi Facebook\'ta takip edin</string>
+    <string name="awards_follow_tiktok">Bizi TikTok\'ta takip edin</string>
+    <string name="awards_follow_ig">Bizi Instagram\'da takip edin</string>
+    <string name="awards_follow_tg">Bizi Telegram\'da takip edin</string>
+    <string name="empty"></string>
+    <string name="awards_coins_rule_2">2. Ödül jetonları görevleri tamamlayarak veya bakiyenizi yükleyerek kazanılabilir. Bölümlerin kilidini açmak için normal jetonlarla birlikte kullanılabilirler.
+</string>
+    <string name="awards_coins_rule_3">3. Ödül jetonlarının süresi dolmaz ve içerik açılırken ilk olarak harcanır.
+</string>
+    <string name="awards_rules_info">Kurallar ve Bilgiler:
+1. ReelPix hem ücretsiz hem de ücretli diziler sunar. Ne izleyeceğinize ve hangi içeriğin kilidini açacağınıza siz karar verirsiniz.
+2. Ödül jetonları görevleri tamamlayarak veya bakiyenizi doldurarak kazanılabilir. Bölümlerin kilidini açmak için normal jetonlarla birlikte kullanılabilirler.
+3. Ödül jetonlarının süresi dolmaz ve içerik açılırken ilk olarak harcanır.
+4. Abonelik, abonelik süresi boyunca tüm ReelPix dizilerine sınırsız erişim sağlar.
+5. Abonelik aktivasyonu satın alımdan sonra 24 saate kadar sürer ve Google Play\'den gelen onaya bağlıdır.
+6. Aboneliğiniz, önceden iptal etmediğiniz sürece mevcut dönemin sonuna kadar aynı fiyatla otomatik olarak yenilenecektir.
+7. Aboneliğinizi iptal etmek için Google Play uygulamasına gidin -> Ödemeler ve abonelikler -> Abonelikler -> ReelPix -> Mevcut dönemin bitiminden en az 24 saat önce aboneliği iptal et.
+8. Fiyatlar bölgenize göre değişebilir.
+9. Herhangi bir sorunuz için destek ekibimizle iletişime geçin: support@limexltd.com</string>
+    <string name="awards_privilege_1">Baştan sona izlenebilir</string>
+    <string name="awards_privilege_2">Aboneliği istediğiniz zaman iptal edin</string>
+    <string name="awards_privilege_3">Bölüm izlemeye sınırsız erişim</string>
+    <string name="awards_privilege_4">Abonelik süresinin sonuna kadar her dizi izlenebilir</string>
+</resources>

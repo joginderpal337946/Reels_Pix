@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">Dramzz</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_feed">Лента</string>
+    <string name="nav_my_list">Мой список</string>
+    <string name="nav_awards">Награды</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_search">Поиск</string>
+    <string name="desc_back">Назад</string>
+    <string name="desc_more_options">Больше опций</string>
+    <string name="desc_like">Нравится</string>
+    <string name="desc_bookmark">В закладки</string>
+    <string name="desc_close">Закрыть</string>
+    <string name="desc_empty_favorites">Нет избранного</string>
+    <string name="desc_save">Сохранить</string>
+    <string name="desc_mailbox_illustration">Иллюстрация почтового ящика</string>
+    <string name="desc_locked">Заблокировано</string>
+    <string name="desc_avatar">Аватар</string>
+    <string name="desc_wallet">Кошелек</string>
+    <string name="desc_coin">Монета</string>
+    <string name="desc_telegram">Telegram</string>
+    <string name="desc_facebook">Facebook</string>
+    <string name="desc_instagram">Instagram</string>
+    <string name="desc_tiktok">TikTok</string>
+    <string name="desc_history">История</string>
+    <string name="desc_empty_coin">Нет монет</string>
+    <string name="desc_background">Фон</string>
+    <string name="desc_reelpix_logo">Логотип ReelPix</string>
+    <string name="desc_google">Google</string>
+    <string name="desc_selected">Выбрано</string>
+    <string name="desc_unselected">Не выбрано</string>
+    <string name="desc_see_all">Смотреть все</string>
+    <string name="desc_views">Просмотры</string>
+    <string name="desc_episode">Эпизод</string>
+    <string name="desc_send">Отправить</string>
+
+    <!-- General Texts -->
+    <string name="video_settings">Настройки</string>
+    <string name="video_send">Отправить</string>
+    <string name="video_episode">Эпизод</string>
+    <string name="search_cancel">Отмена</string>
+    <string name="search_exclusive">Эксклюзив</string>
+    <string name="watch_now">Смотреть сейчас</string>
+    <string name="settings_quality">Качество</string>
+    <string name="settings_subtitles">Субтитры</string>
+    <string name="settings_playback_speed">Скорость воспроизведения</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_trophy_title">Я стала его трофеем</string>
+    <string name="dashboard_new_releases">Новинки</string>
+    <string name="dashboard_trending">В тренде</string>
+    <string name="dashboard_continue_watching">Продолжить просмотр</string>
+
+    <!-- Tabs and Settings -->
+    <string name="tab_favorites">Избранное</string>
+    <string name="tab_history">История</string>
+    <string name="tab_rewards">Награды</string>
+    <string name="tab_purchase">Покупки</string>
+    <string name="tab_shop">Магазин</string>
+
+    <string name="setting_language">Язык</string>
+    <string name="setting_invitation_code">Код приглашения</string>
+    <string name="setting_feedback">Обратная связь</string>
+    <string name="setting_user_agreement">Пользовательское соглашение</string>
+    <string name="setting_privacy_policy">Политика конфиденциальности</string>
+    <string name="setting_share_app">Поделиться приложением</string>
+    <string name="setting_rate_app">Оценить приложение</string>
+    <string name="setting_delete_account">Удалить аккаунт</string>
+    <string name="profile_sign_out">Выйти</string>
+    <string name="dialog_logout_title">Выйти</string>
+    <string name="dialog_logout_message">Вы уверены, что хотите выйти?</string>
+    <string name="dialog_delete_account_title">Удалить аккаунт</string>
+    <string name="dialog_delete_account_message">Вы уверены, что хотите удалить свой аккаунт? Это действие нельзя отменить.</string>
+    <string name="dialog_yes">Да</string>
+    <string name="dialog_cancel">Отмена</string>
+    
+    <string name="video_quality_auto">Auto</string>
+    <string name="video_lang_english">English</string>
+    <string name="video_lang_espanol">Español</string>
+    <string name="video_lang_portugues">Português</string>
+    <string name="video_lang_turkce">Türkçe</string>
+
+    <!-- Additional Missing Strings -->
+    <string name="transaction_daily_login">Награда за вход</string>
+    <string name="transaction_history_empty">История покупок будет отображаться здесь</string>
+    <string name="find_out_more">Узнать больше</string>
+    
+    <string name="topup_price_format">Цена: %s </string>
+    <string name="topup_balance_format">Баланс: %s</string>
+    
+    <string name="signin_google">Войти через Google</string>
+    
+    <string name="search_placeholder">Предначертано</string>
+    
+    <string name="profile_anonymous">Аноним</string>
+    <string name="profile_sign_in">Войти</string>
+    
+    <string name="wallet_title">Мой кошелек</string>
+    <string name="wallet_balance">Баланс</string>
+    <string name="wallet_coins">Монеты</string>
+    <string name="wallet_top_up">Пополнить</string>
+    <string name="wallet_transaction_history">История транзакций</string>
+    
+    <string name="my_list_open_more">Открыть еще</string>
+    <string name="language_title">Язык</string>
+    
+    <string name="awards_balance">Баланс</string>
+    <string name="awards_claim_bonuses">Получить бонусы</string>
+    <string name="awards_invite_friend">Пригласить друга</string>
+    <string name="awards_coins_for_friend">монет за каждого друга</string>
+    <string name="awards_buy">Купить</string>
+    <string name="awards_subscription_privileges">Привилегии подписки</string>
+    <string name="awards_subscribe_now">Подписаться</string>
+    <string name="awards_invite_title">Пригласи друга и получи награду</string>
+    <string name="awards_share">Поделиться</string>
+    <string name="awards_how_it_works">Как это работает?</string>
+    <string name="awards_rule_1">1. Поделитесь кодом с другом</string>
+    <string name="awards_rule_2">2. Друг переходит по ссылке или вводит код</string>
+    <string name="awards_rule_3">3. Вы и друг получите 100 монет</string>
+    <string name="awards_coins_purchase">Покупка монет</string>
+    
+    <string name="dashboard_coming_soon">Контент для вкладки %s скоро появится</string>
+    
+    <string name="no_internet_title">Нет подключения к интернету</string>
+    <string name="no_internet_message">Пожалуйста, проверьте настройки сети. Для работы приложения требуется подключение к интернету.</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_play">Играть</string>
+    <string name="desc_treasure_chest">Сундук</string>
+    <string name="desc_invite">Пригласить</string>
+    <string name="desc_no_internet">Нет интернета</string>
+    
+    <!-- Top Up Bottom Sheet -->
+    <string name="topup_message">Чтобы продолжить просмотр,
+пополните
+баланс или подпишитесь</string>
+    <string name="topup_view_all">Смотреть все</string>
+
+    <!-- My List Screen -->
+    <string name="my_list_empty">Здесь пока ничего нет. Добавьте что-нибудь!</string>
+
+    <!-- Invitation Code Screen -->
+    <string name="invitation_message">Есть код приглашения? Введите его ниже, чтобы получить монеты для просмотра эксклюзивных сериалов.</string>
+    <string name="invitation_label">Код приглашения</string>
+    <string name="invitation_activate">Активировать</string>
+
+    <!-- No Internet Bottom Sheet -->
+
+    <!-- Awards Screen -->
+    <string name="awards_terms_privacy">Продолжая, вы принимаете Условия использования и Политику конфиденциальности</string>
+    <string name="awards_pack_format">Пакет %1$d монет %2$s бонусов</string>
+    <string name="awards_subscription_format">Доступ по подписке: %1$s</string>
+
+    <!-- Formats -->
+    <string name="episode_format">Эпизод %1$d</string>
+    <!-- New Strings -->
+    <string name="awards_today">Сегодня</string>
+    <string name="awards_day">День %d</string>
+    <string name="awards_todays_rewards">Награды сегодня</string>
+    <string name="awards_watch_ad">Посмотреть рекламу</string>
+    <string name="awards_watch_ad_desc">Чтобы заработать монеты</string>
+    <string name="awards_registration">Награда за регистрацию</string>
+    <string name="awards_registration_desc">Создайте аккаунт в приложении и получите награду!</string>
+    <string name="awards_push">Включить push-уведомления</string>
+    <string name="awards_push_desc">Включите push-уведомления и получите награду!</string>
+    <string name="sub_1_week">1 неделя</string>
+    <string name="sub_1_month">1 месяц</string>
+    <string name="sub_1_year">1 год</string>
+    <string name="profile_watch_restrictions">Смотреть без ограничений</string>
+    <string name="profile_unlock_episodes">Разблокировать эпизоды:</string>
+    <string name="profile_version">Версия %s</string>
+    <string name="awards_follow_fb">Подпишитесь на нас в Facebook</string>
+    <string name="awards_follow_tiktok">Подпишитесь на нас в TikTok</string>
+    <string name="awards_follow_ig">Подпишитесь на нас в Instagram</string>
+    <string name="awards_follow_tg">Подпишитесь на нас в Telegram</string>
+    <string name="empty"></string>
+    <string name="awards_coins_rule_2">2. Бонусные монеты можно заработать, выполняя задания или пополняя баланс. Их можно использовать вместе с обычными монетами для разблокировки эпизодов.
+</string>
+    <string name="awards_coins_rule_3">3. Бонусные монеты не сгорают и тратятся первыми при разблокировке контента.
+</string>
+    <string name="awards_rules_info">Правила и информация:
+1. ReelPix предлагает как бесплатные, так и платные сериалы. Вы сами решаете, что смотреть и какой контент разблокировать.
+2. Бонусные монеты можно заработать, выполняя задания или пополняя баланс. Их можно использовать вместе с обычными монетами для разблокировки эпизодов.
+3. Бонусные монеты не сгорают и тратятся первыми при разблокировке контента.
+4. Подписка предоставляет неограниченный доступ ко всем сериалам ReelPix на время действия подписки.
+5. Активация подписки занимает до 24 часов после покупки и зависит от подтверждения от Google Play.
+6. Ваша подписка будет автоматически продлена по той же цене до конца текущего периода, если вы не отмените ее заранее.
+7. Чтобы отменить подписку, перейдите в приложение Google Play -> Платежи и подписки -> Подписки -> ReelPix -> Отменить подписку не менее чем за 24 часа до окончания текущего периода.
+8. Цены могут варьироваться в зависимости от вашего региона.
+9. По любым вопросам обращайтесь в нашу службу поддержки: support@limexltd.com</string>
+    <string name="awards_privilege_1">Можно смотреть от начала до конца</string>
+    <string name="awards_privilege_2">Отмена подписки в любое время</string>
+    <string name="awards_privilege_3">Неограниченный доступ к просмотру эпизодов</string>
+    <string name="awards_privilege_4">Любые сериалы доступны до конца периода подписки</string>
+</resources>
